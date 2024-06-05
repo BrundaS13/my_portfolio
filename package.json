@@ -2,7 +2,7 @@
   "name": "my_portfolio1",
   "version": "0.1.0",
   "private": true,
-  "homepage": " https://brunda-s.github.io/My_portfolio/",
+  "homepage": "https://github.com/BrundaS13/my_portfolio.git",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -36,5 +36,9 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
