@@ -1,5 +1,5 @@
 name: Portfolio ci
-on: workflow_dispath
+on: workflow_dispatch
 jobs:
   Testing:
     runs-on: ubuntu-latest
@@ -7,5 +7,9 @@ jobs:
     - name: Code checkout
       uses: actions/checkout@v4
       
-    - name: npm test
-      run: npm test
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
